@@ -2,194 +2,436 @@
   <div>
     <nav>
       <div class="header">
-
+        <div class="aboutme">
+          About Me
+        </div>
+        <div class="aboutme">
+          Education
+        </div>
+        <div class="aboutme">
+          Activity
+        </div>
+        <div class="aboutme">
+          Stack
+        </div>
+        <div class="aboutme">
+          Portfolio
+        </div>
       </div>
     </nav>
     <div class="container">
       <div class="main">
-        <h3>노력하고 뭐시기하는 개발자</h3>
-        <h1>김민지입니다.</h1>
+        <h3>{{ subtitle }}</h3>
+      <h1>{{ name }}</h1>
       </div>
 
       <div class="infor">
-        <div class="infor-left-right">
-          <div class="infor-left">
-            <h1>김민지</h1>
-            <h3>백엔드 개발자</h3>
-            <h3>contact : 010-3958-3589</h3>
-            <h3>Email : kmt0819@naver.com</h3>
-
+        <div class="aboutme">
+          <h1>About Me</h1>
+        </div>
+        <div class="aboutme-grid">
+          <div class="my-image">
+            <v-img class="my-pic" src='@/assets/photo.jpg'></v-img>
           </div>
-          
-          <div class="infor-right">
-            <v-img class="my-pic" src='@/assets/pen.png' width="300px"></v-img>
+          <div class="infor-text">
+            <h3>자기소개</h3>
+            <p>이름 : 김민지</p>
+            <p>생년월일 : 2000.08.19</p>
+            <p>학력 : 명지전문대학 정보통신공학과 졸업</p>
           </div>
         </div>
 
 
-        <div class="infor-link">
-          <span class="github">
-            <a href="">깃허브</a>
-          </span>
-          <span class="blog">
-            <a href="">블로그</a>
-          </span>
-          <span class="notion">
-            <a href="">노션</a>
-          </span>
-        </div>
       </div>
 
-      <div class="about-me">
-        <div class="title">
-          <h1>⭐ About Me</h1>
-        </div>
-        <p>⭐ 나에 대한 소개입니다.</p>
+      <div class="text">
+        <p>⭐ 내가 왜 개발자를 하고 싶었는지</p>
         <p>⭐ 나에 대한 소개입니다.</p>
         <p>⭐ 나에 대한 소개입니다.</p> 
       </div>
 
-      <div class="education">
+      <div class="skiils">
         <div class="title">
-          <h1>Education</h1>
+          <h1>Skills</h1>
+        </div>
+        <div class="skill-grid">
+          <div class="backend">
+            <div class="name">
+              <h1>BackEnd</h1>
+            </div>
+            <div class="skill-list">
+              <li>Spring Boot</li>
+              <li>MySQL</li>
+              <li>Spring Boot</li>
+              <li>MySQL</li>
+            </div>
+          </div>
+          <div class="frontend">
+            <div class="name">
+              <h1>FrontEnd</h1>
+            </div>
+            <div class="skill-list">
+              <li>Spring Boot</li>
+              <li>MySQL</li>
+              <li>Spring Boot</li>
+              <li>MySQL</li>
+            </div>
+          </div>
+          <div class="etc">
+            <div class="name">
+              <h1>Etc</h1>
+            </div>
+            <div class="skill-list">
+              <li>Spring Boot</li>
+              <li>MySQL</li>
+              <li>Spring Boot</li>
+              <li>MySQL</li>
+            </div>
+          </div>
+        </div>
+        <div class="skill-image">
+          <v-img class="my-pic" src='@/assets/node.png' width="100px"></v-img>
+          <v-img class="my-pic" src='@/assets/spring.png' width="100px"></v-img>
+          <v-img class="my-pic" src='@/assets/node.png' width="100px"></v-img>
+          <v-img class="my-pic" src='@/assets/spring.png' width="100px"></v-img>
+          <v-img class="my-pic" src='@/assets/node.png' width="100px"></v-img>
+          <v-img class="my-pic" src='@/assets/spring.png' width="100px"></v-img>
+        </div>
+      </div>
+      
+
+      <div class="Experience">
+        <div class="title">
+          <h1>Experience</h1>
+        </div>
+        <div class="ex-text">
+          아르바이트, 교육 등 다양한 경험을 해보았습니다.
+        </div>
+        <div class="ex-list-grid">
+          <div class="ex-list">
+            <h2>Alpha mini 아르바이트</h2>
+            <p>2023-10-21~</p>
+          </div>
+          <div class="ex-list">
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+          </div>
+        </div>
+        <hr>
+        <div class="ex-list-grid">
+          <div class="ex-list">
+            <h2>Alpha mini 아르바이트</h2>
+            <p>2023-10-21~</p>
+          </div>
+          <div class="ex-list">
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다. 이것이 얼마나 소중한 기회였는지 저는</li>
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+          </div>
+        </div>
+        <hr>
+        <div class="ex-list-grid">
+          <div class="ex-list">
+            <h2>Alpha mini 아르바이트</h2>
+            <p>2023-10-21~</p>
+          </div>
+          <div class="ex-list">
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+          </div>
+        </div>
+        <hr>
+        <div class="ex-list-grid">
+          <div class="ex-list">
+            <h2>Alpha mini 아르바이트</h2>
+            <p>2023-10-21~</p>
+          </div>
+          <div class="ex-list">
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+          </div>
+        </div>
+        <hr>
+        <div class="ex-list-grid">
+          <div class="ex-list">
+            <h2>Alpha mini 아르바이트</h2>
+            <p>2023-10-21~</p>
+          </div>
+          <div class="ex-list">
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+          </div>
         </div>
       </div>
 
-      <div class="activity">
-        <div class="title">
-          <h1>Activity</h1>
-        </div>
-      </div>
 
       <div class="portfolio">
         <div class="title">
           <h1>Portfolio</h1>
         </div>
         <div class="portfolio-grid">
+
           <div class="port">
-            <v-img class="my-pic" src='@/assets/pen.png'></v-img>
-            <h3>포트폴리오1</h3>
+            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <div class="port-text">
+              <h3>학원관리 시스템</h3>
+              <p>2023-10-21~</p>
+              <p class="cate">웹 사이트</p>
+            </div>
+
           </div>
 
           <div class="port">
-            <v-img class="my-pic" src='@/assets/pen.png'></v-img>
-            <h3>포트폴리오1</h3>
+            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <div class="port-text">
+              <h3>학원관리 시스템</h3>
+              <p>2023-10-21~</p>
+              <p class="cate">웹 사이트</p>
+            </div>
+
           </div>
 
           <div class="port">
-            <v-img class="my-pic" src='@/assets/pen.png'></v-img>
-            <h3>포트폴리오1</h3>
+            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <div class="port-text">
+              <h3>학원관리 시스템</h3>
+              <p>2023-10-21~</p>
+              <p class="cate">웹 사이트</p>
+            </div>
+
           </div>
 
           <div class="port">
-            <v-img class="my-pic" src='@/assets/pen.png'></v-img>
-            <h3>포트폴리오1</h3>
-          </div>
+            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <div class="port-text">
+              <h3>학원관리 시스템</h3>
+              <p>2023-10-21~</p>
+              <p class="cate">웹 사이트</p>
+            </div>
 
-          <div class="port">
-            <v-img class="my-pic" src='@/assets/pen.png'></v-img>
-            <h3>포트폴리오1</h3>
-          </div>
-
-          <div class="port">
-            <v-img class="my-pic" src='@/assets/pen.png'></v-img>
-            <h3>포트폴리오1</h3>
           </div>
         </div>
       </div>
     </div>
+
+    <footer>
+      <p>김민지 - 졸업 프로젝트 중간고사 포트폴리오</p>
+      <p>© 2023 Kim Min Ji, All Rights Reserved.</p>
+    </footer>
   </div>
 </template>
 
 <script>
+export default {
+  name: 'App',
+
+  data: () => ({
+    subtitle: '',
+    name: '',
+  }),
+
+  mounted() {
+    this.typeText('노력하고 뭐시기하는 개발자', 'subtitle')
+      .then(() => {
+        this.subtitle = '노력하고 뭐시기하는 개발자';
+        return this.typeText('김민지입니다.', 'name');
+      })
+      .then(() => {
+        this.name = '김민지입니다.';
+      });
+  },
+
+  methods: {
+    typeText(text, property) {
+      return new Promise((resolve) => {
+        let index = 0;
+        this[property] = '';
+
+        const type = () => {
+          if (index < text.length) {
+            this[property] += text.charAt(index);
+            index++;
+            setTimeout(type, 100);
+          } else {
+            resolve();
+          }
+        };
+
+        type();
+      });
+    },
+  },
+};
 
 </script>
 
 <style>
+.header {
+  padding: 30px 200px;
+  display: flex;
+
+}
+
+.header div {
+  margin-right: 100px;
+}
+
+
+
 .main {
   background-color: rgb(244, 216, 159);
   width: 100%;
-
   text-align: center;
   padding: 200px 0;
 }
 
 .container {
-  background-color: aliceblue;
   margin: 0 auto;
-  padding: 0 200px;
 }
 
-.infor-left-right {
+.infor {
+  margin: 50px 200px;
+}
+
+.aboutme-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
 }
 
-.infor-left {
-  padding: 100px;
-  text-align: center;
-}
-
-.infor-left h1 {
-  font-size: 60px;
-  margin: 30px 0;
-}
-
-.infor-left h3 {
+.title {
   font-size: 20px;
-  margin: 20px 0;
+  text-align: center;
+  margin: 60px 0;
+  letter-spacing: 8px;
+  text-decoration-line : underline;
+  text-decoration-color : #F5F5F5;
+  text-decoration-thickness : 3px;
+  font-weight: 400;
+  
 }
 
-.infor-right {
- 
-  padding: 100px; 
-  margin: 0 auto;
-}
 
-.infor-right .my-pic {
-  border-radius: 150px 0px 150px 150px;
-}
-
-.infor-link {
+.text {
+  margin: 0 200px;
   padding: 100px;
+  text-align: center;
+  background-color: rgb(244, 216, 159);
+
 }
 
-.about-me {
-  padding: 100px;
+.skill-grid {
+  margin: 0 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
   text-align: center;
 }
 
+.skill-grid h1 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.backend, .etc {
+  background-color: rgb(244, 216, 159);
+  padding: 20px 50px;
+}
 
 
-.infor-link span{
-  background-color: rgb(66, 142, 170);
-  color: white;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
+
+.frontend {
+  background-color: #F5F5F5;
+  padding: 20px 50px;
+}
+
+.skill-image {
+  margin: 50px 200px;
+  text-align: center;
 
 }
 
-.education {
-  padding: 100px;
+.skill-image .my-pic {
+
+  margin: 0 20px;
+
 }
+
+.Experience {
+  margin: 0 200px;
+}
+
+.ex-list-grid {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 5fr;
+}
+
+.ex-list {
+  margin: 50px 0;
+}
+
+.ex-list li {
+  margin-bottom: 15px;
+}
+
+
 
 .activity {
   padding: 100px;
 }
 
-.portfolio {
+.stack {
   padding: 100px;
+}
+
+.portfolio {
+  margin: 0 200px;
+  
 }
 
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
+  gap: 80px;
 }
 
 .portfolio-grid .port {
   margin-top: 50px;
+}
+
+img {
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.port {
+  box-shadow: 5px 5px 5px 5px rgb(235, 235, 235);
+}
+.port-text {
+  padding: 10px;
+  font-weight: 400;
+}
+.port-text h3 {
+  font-size: 30px;
+}
+.port .cate {
+  background-color: rgb(244, 216, 159);
+  color: white;
+  padding: 10px;
+  width: 100px;
+}
+.port .width {
+  width: 100px;
+}
+footer {
+  padding: 20px;
+  background-color: rgb(244, 216, 159);
+  text-align: center;
+  margin-top: 100px;
 }
 
 </style>
