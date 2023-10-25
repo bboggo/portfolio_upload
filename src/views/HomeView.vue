@@ -1,47 +1,74 @@
 <template>
   <div>
     <nav>
+
       <div class="header">
-        <div class="aboutme">
+
+        <div class="menu1" @click="scrollToSection('aboutme')">
           About Me
         </div>
-        <div class="aboutme">
-          Education
+        <div class="menu1" @click="scrollToSection('skiils')">
+          Skills
         </div>
-        <div class="aboutme">
-          Activity
+        <div class="menu1" @click="scrollToSection('Experience')">
+          Experience
         </div>
-        <div class="aboutme">
-          Stack
-        </div>
-        <div class="aboutme">
+        <div class="menu1" @click="scrollToSection('portfolio')">
           Portfolio
         </div>
       </div>
     </nav>
+
     <div class="container">
       <div class="main">
         <h3>{{ subtitle }}</h3>
       <h1>{{ name }}</h1>
       </div>
 
-      <div class="infor">
-        <div class="aboutme">
+      <div class="aboutme">
           <h1>About Me</h1>
         </div>
+      <div class="infor" data-aos="fade-down" data-duration="2000">
+
         <div class="aboutme-grid">
           <div class="my-image">
             <v-img class="my-pic" src='@/assets/photo.jpg'></v-img>
           </div>
-          <div class="infor-text">
-            <h3>자기소개</h3>
-            <p>이름 : 김민지</p>
-            <p>생년월일 : 2000.08.19</p>
-            <p>학력 : 명지전문대학 정보통신공학과 졸업</p>
+          <div class="about-me-right">
+            <v-carousel height="500" hide-delimiters progress="primary">
+            <v-carousel-item>
+              <div class="infor-text1">
+                <h3>자기소개</h3>
+                <p>이름 : 김민지</p>
+                <p>생년월일 : 2000.08.19</p>
+                <p>학력 : 명지전문대학 정보통신공학과 졸업</p>
+                <p> : 명지전문대학 정보통신공학과 졸업</p>
+              </div>
+            </v-carousel-item>
+
+            <v-carousel-item>
+              <div class="infor-text1">
+                <h3>자기소개2</h3>
+                <p>이름 : 김민지</p>
+                <p>생년월일 : 2000.08.19</p>
+                <p>학력 : 명지전문대학 정보통신공학과 졸업</p>
+                <p> : 명지전문대학 정보통신공학과 졸업</p>
+              </div>
+            </v-carousel-item>
+
+            <v-carousel-item>
+              <div class="infor-text1">
+                <h3>Contact</h3>
+                <p>이름 : 김민지</p>
+                <p>생년월일 : 2000.08.19</p>
+                <p>학력 : 명지전문대학 정보통신공학과 졸업</p>
+                <p> : 명지전문대학 정보통신공학과 졸업</p>
+              </div>
+            </v-carousel-item>
+          </v-carousel>
           </div>
+
         </div>
-
-
       </div>
 
       <div class="text">
@@ -170,7 +197,7 @@
         </div>
         <div class="portfolio-grid">
 
-          <div class="port">
+          <div class="port" data-aos="fade-up" data-aos-duration="4000">
             <v-img class="my-pic" src='@/assets/node.png'></v-img>
             <div class="port-text">
               <h3>학원관리 시스템</h3>
@@ -180,7 +207,7 @@
 
           </div>
 
-          <div class="port">
+          <div class="port" ddata-aos="fade-up" data-aos-duration="4000">
             <v-img class="my-pic" src='@/assets/node.png'></v-img>
             <div class="port-text">
               <h3>학원관리 시스템</h3>
@@ -190,7 +217,7 @@
 
           </div>
 
-          <div class="port">
+          <div class="port" data-aos="fade-up" data-duration="2000">
             <v-img class="my-pic" src='@/assets/node.png'></v-img>
             <div class="port-text">
               <h3>학원관리 시스템</h3>
@@ -200,7 +227,7 @@
 
           </div>
 
-          <div class="port">
+          <div class="port" data-aos="fade-up" data-duration="2000">
             <v-img class="my-pic" src='@/assets/node.png'></v-img>
             <div class="port-text">
               <h3>학원관리 시스템</h3>
@@ -217,6 +244,7 @@
       <p>김민지 - 졸업 프로젝트 중간고사 포트폴리오</p>
       <p>© 2023 Kim Min Ji, All Rights Reserved.</p>
     </footer>
+    
   </div>
 </template>
 
@@ -259,16 +287,37 @@ export default {
         type();
       });
     },
+    scrollToSection(section) {
+      // 해당 섹션의 DOM 요소를 선택
+      const element = document.querySelector(`.${section}`);
+      if (element) {
+        // 선택한 요소로 스크롤
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    },
   },
 };
 
 </script>
 
 <style>
-.header {
-  padding: 30px 200px;
-  display: flex;
 
+.header {
+  display: flex;
+  margin: 30px 200px;
+
+  
+}
+
+.menu1:hover {
+  color: rgb(242, 188, 80);
+
+}
+
+.menu1 {
+  font-size: 20px;
+  font-weight: 500;
+  
 }
 
 .header div {
@@ -278,10 +327,12 @@ export default {
 
 
 .main {
+  clear: right;
   background-color: rgb(244, 216, 159);
   width: 100%;
   text-align: center;
-  padding: 200px 0;
+  padding: 350px 0;
+  height: 800px;
 }
 
 .container {
@@ -289,7 +340,14 @@ export default {
 }
 
 .infor {
-  margin: 50px 200px;
+  margin: 50px 200px 150px 280px;
+}
+
+
+
+
+.aboutme {
+  margin: 100px 200px;
 }
 
 .aboutme-grid {
@@ -298,15 +356,37 @@ export default {
   gap: 100px;
 }
 
+.my-image .my-pic {
+  box-shadow: -80px 80px rgb(255, 243, 219);
+}
+
+.infor-text1 {
+  padding: 100px 150px;
+  height: 100%;
+  background-color: rgb(255, 251, 242);
+}
+
+.infor-text1 h3 {
+  font-size: 30px;
+  color: rgb(48, 48, 48);
+  margin-bottom: 70px;
+}
+
+.infor-text1 p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
 .title {
   font-size: 20px;
   text-align: center;
-  margin: 60px 0;
+  margin: 80px 0;
   letter-spacing: 8px;
   text-decoration-line : underline;
   text-decoration-color : #F5F5F5;
   text-decoration-thickness : 3px;
   font-weight: 400;
+  clear: left;
   
 }
 
@@ -347,13 +427,11 @@ export default {
 
 .skill-image {
   margin: 50px 200px;
-  text-align: center;
-
 }
 
 .skill-image .my-pic {
-
-  margin: 0 20px;
+  float: left;
+  margin: 0 20px 100px 20px;
 
 }
 
@@ -393,7 +471,7 @@ export default {
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 80px;
+  gap: 150px;
 }
 
 .portfolio-grid .port {
