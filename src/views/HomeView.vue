@@ -83,8 +83,8 @@
 
       <div class="text">
         <p>⭐ 백엔드 개발자가 되고 싶은 김민지입니다. ⭐</p>
-        <p>⭐ 나에 대한 소개입니다.</p>
-        <p>⭐ 나에 대한 소개입니다.</p> 
+        <p>2022년부터 백엔드 개발자를 희망하고 준비하고 있습니다. 원하는 서비스를 상상하는 것 뿐만 아니라 실제로 만들어 낼 수 있다는 점에서 프로그래밍에 매력을 느끼고 되었습니다.</p>
+        <p>프로젝트와 이론에 대한 공부를 함께하며 노력해 나아가고 있습니다:) </p> 
       </div>
 
       <div class="skiils">
@@ -94,46 +94,88 @@
         <div class="skill-grid">
           <div class="backend">
             <div class="name">
-              <h1>BackEnd</h1>
+              <h1>백엔드 프레임워크</h1>
             </div>
             <div class="skill-list">
-              <li>Spring Boot</li>
-              <li>MySQL</li>
-              <li>Spring Boot</li>
-              <li>MySQL</li>
+              <ul>
+                <li>Spring Boot</li>
+                <li>Express</li>
+              </ul>
             </div>
           </div>
+          <div class="database">
+            <div class="name">
+              <h1>데이터베이스</h1>
+            </div>
+            <div class="skill-list">
+              <ul>
+                <li>MySQL</li>
+                <li>Oracle</li>
+              </ul>
+            </div>
+          </div>
+          <div class="environ">
+            <div class="name">
+              <h1>개발 환경 및 생산성</h1>
+            </div>
+            <div class="skill-list">
+              <ul>
+                <li>Gradle</li>
+                <li>Lombok</li>
+                <li>Tomcat</li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="cloud">
+            <div class="name">
+              <h1>클라우드 및 통신</h1>
+            </div>
+            <div class="skill-list">
+              <ul>
+                <li>AWS RDS</li>
+                <li>AWS EC2</li>
+                <li>AWS S3</li> 
+              </ul>
+            </div>
+          </div>
+
+          <div class="git">
+            <div class="name">
+              <h1>배포 및 형상 관리</h1>
+            </div>
+            <div class="skill-list">
+              <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+              </ul>
+            </div>
+          </div>
+
           <div class="frontend">
             <div class="name">
-              <h1>FrontEnd</h1>
+              <h1>프론트엔드</h1>
             </div>
             <div class="skill-list">
-              <li>Spring Boot</li>
-              <li>MySQL</li>
-              <li>Spring Boot</li>
-              <li>MySQL</li>
-            </div>
-          </div>
-          <div class="etc">
-            <div class="name">
-              <h1>Etc</h1>
-            </div>
-            <div class="skill-list">
-              <li>Spring Boot</li>
-              <li>MySQL</li>
-              <li>Spring Boot</li>
-              <li>MySQL</li>
+              <ul>
+                <li>Vus.js</li>
+                <li>Html5</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+              </ul>
+
             </div>
           </div>
         </div>
-        <div class="skill-image">
+        <!-- <div class="skill-image">
           <v-img class="my-pic" src='@/assets/node.png' width="100px"></v-img>
           <v-img class="my-pic" src='@/assets/spring.png' width="100px"></v-img>
           <v-img class="my-pic" src='@/assets/node.png' width="100px"></v-img>
           <v-img class="my-pic" src='@/assets/spring.png' width="100px"></v-img>
           <v-img class="my-pic" src='@/assets/node.png' width="100px"></v-img>
           <v-img class="my-pic" src='@/assets/spring.png' width="100px"></v-img>
-        </div>
+        </div> -->
       </div>
       
 
@@ -187,7 +229,7 @@
             <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
           </div>
         </div>
-
+        <hr>
         <div class="ex-list-grid">
           <div class="ex-list">
             <h2>학습법 특강</h2>
@@ -198,7 +240,7 @@
             <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
           </div>
         </div>
-
+        <hr>
         <div class="ex-list-grid">
           <div class="ex-list">
             <h2>Alpha mini 교재 번역 아르바이트</h2>
@@ -500,6 +542,10 @@ export default {
 
 }
 
+.text p {
+  font-weight: 600;
+}
+
 .skill-grid {
   margin: 0 200px;
   display: grid;
@@ -509,21 +555,22 @@ export default {
 }
 
 .skill-grid h1 {
+  font-size: 25px;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 5px;
 }
 
-.backend, .etc {
+.backend, .environ, .skill-grid .git {
   background-color: rgb(244, 216, 159);
-  padding: 20px 50px;
+  padding: 30px 50px;
 }
 
 
 
-.frontend {
+.frontend, .database, .cloud {
   background-color: #F5F5F5;
-  padding: 20px 50px;
+  padding: 30px 50px;
 }
 
 .skill-image {
@@ -533,9 +580,19 @@ export default {
 .skill-image .my-pic {
   float: left;
   margin: 0 20px 100px 20px;
-
 }
 
+ul {
+  list-style-position: outside;
+  list-style-type: circle;
+  text-align: center;
+}
+ul li {
+  width: 100px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
 .Experience {
   margin: 0 200px;
 }
