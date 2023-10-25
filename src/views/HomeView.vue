@@ -49,7 +49,7 @@
 
             <v-carousel-item>
               <div class="infor-text1">
-                <h3>Certificate</h3>
+                <h3>Certificate & Award</h3>
                 <p>2022.04 | 리눅스 마스터 2급 | 한국정보통신인력개발센터</p>
                 <p>2022.09 | 정보처리산업기사 | 한국산업인력공단</p>
                 <p>2023.09 | 정보처리기사 | 한국산업인력공단</p>
@@ -63,7 +63,7 @@
 
             <v-carousel-item>
               <div class="infor-text1">
-                <h3>Contact & Award</h3>
+                <h3>Contact</h3>
                 
                 <p>E-mail: kmt0819@naver.com</p>
                 <p>Phone: 010-3958-3589</p>
@@ -264,33 +264,42 @@
           <!-- 모달 내용 -->
           <div class="modal-content">
             <div class="project-infor">
-              <h2>학원 관리 시스템</h2>
-              <p>진행 기간 : 2023-10~2023-1012</p>
-              <p class="cate">웹 사이트</p>
-              <a href="">github</a>
+              <h2>자동 출입 시스템</h2>
+              <p>진행 기간 : 2022-04~2022-0</p>
+              <p class="cate">카테고리 : H/W</p>
+              <a href="https://github.com/0uizi0/automatic-access-system">github</a>
             </div>
             <div class="project-grid">
               <div class="project-image">
-                <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+                <v-img class="my-pic" src='@/assets/access.png'></v-img>
               </div>
               <div class="project-des">
-                어떤 프로젝트인지 기획에 대해서 설명
+                <p>[딥러닝을 활용한 자동 출입 시스템 제작]</p>
+                <li>Open CV를 이용한 딥러닝 모델 개발을 활용해 관리자 접근 허용</li>
+                <li>아두이노 우노와 라즈베리 파이 간의 시리얼 통신</li>
+                <li>아두이노 우노와 연결된 지문인식센서를 통해 관리자 접근 허용</li>
+                <li>아두이노 우노와 연결된 RFID 센서를 통해 관리자를 제외한 일반 사용자의 접근 허용</li>
+
+                <li>접근이 허용될 경우 LED 점등 및 LCD 문구 출력, 서보모터를 통해 출입문 열림</li>
+            <li>관리자와 일반 사용자의 접근 경로를 달리해 보안 강화</li>
               </div>
-            </div>
+            </div><br>
+
             <div class="project-my">
-              <h3>내가 담당한 부분 : 백엔드</h3>
+              <h3>담당한 부분 : 하드웨어 제어 및 이미지 딥러닝</h3>
+              <p>python을 사용한 라즈베리파이 및 모듈 제어, Open CV를 활용한 이미지 딥러닝 담당</p>
               
             </div>
             <div class="project-skill">
               <h3>기술 스택</h3>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
+              <li>Arduion IDE</li>
+              <li>Python 3.7.9</li>
+              <li>Raspberry pi 4</li>
             </div>
 
             <div class="project-feel">
-              <h3>느낀점</h3>
-              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+              <h3>배운점</h3>
+              <p>프로젝트를 진행하며 하드웨어에 대한 전반적인 이해력 향상 및 딥러닝 방식에 대한 지식을 학습할 수 있었음</p>
             </div>
 
             <!-- 모달 내용 추가 -->
@@ -306,32 +315,34 @@
           <div class="modal-content">
             <div class="project-infor">
               <h2>동아리 홍보 페이지</h2>
-              <p>진행 기간 : 2023-10~2023-1012</p>
-              <p class="cate">웹 사이트</p>
-              <a href="">github</a>
+              <p>진행 기간 : 2022-08~2022-09</p>
+              <p class="cate">카테고리 : 웹 사이트</p>
+              <a href="https://xd.adobe.com/view/a0b75416-116b-4fe6-8144-84aefec9c212-f5e4/screen/3d716e28-7636-44e9-9f9a-d5e7236710df">디자인</a>
             </div>
             <div class="project-grid">
               <div class="project-image">
-                <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+                <v-img class="my-pic" src='@/assets/4this.png'></v-img>
               </div>
               <div class="project-des">
-                어떤 프로젝트인지 기획에 대해서 설명
+                <p>[동아리 신입 부원 모집 사이트]</p>
+                <p>동아리 홍보 시 제대로 정리를 보여줄 방법이 마땅치 않아 웹 사이트 기획하게 됨</p>
+                <p>동아리의 수상/활동 일정/활동 인원/목표 등과 같은 동아리 홍보 내용 제공</p>
+                <p>동아리 신청 방식에 대한 공지 및 유의사항 전달</p>
               </div>
             </div>
             <div class="project-my">
-              <h3>내가 담당한 부분 : 백엔드</h3>
-              
+              <h3>담당한 부분 : 기획 및 디자인</h3>
+              <p>사이트의 전반적인 기획 구성 및 디자인</p>
             </div>
             <div class="project-skill">
-              <h3>기술 스택</h3>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
+              <h3>사용 툴</h3>
+              <li>Adobe XD</li>
+
             </div>
 
             <div class="project-feel">
-              <h3>느낀점</h3>
-              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+              <h3>배운점</h3>
+              <p>평소에는 개발로만 프로젝트에 참여하던 중, 동아리 홍보가 필요한 상황에서 프로젝트 기획을 경험해 보고 싶어 시작하게 되었음. 기획 및 디자인이 어떤 절차로 이루어지는지, 개발 시 기획자와 어떻게 소통해야할지 등에 대해 배울 수 있었음</p>
             </div>
 
             <!-- 모달 내용 추가 -->
@@ -394,7 +405,7 @@
             </div>
             <div class="project-grid">
               <div class="project-image">
-                <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+                <v-img class="my-pic" src='@/assets/service.png'></v-img>
               </div>
               <div class="project-des">
                 어떤 프로젝트인지 기획에 대해서 설명
@@ -432,11 +443,11 @@
               <h2>DevForDev</h2>
               <p>진행 기간 : 2023-10~2023-1012</p>
               <p class="cate">웹 사이트</p>
-              <a href="">github</a>
+              <a href="https://github.com/bboggo/devfordev">github</a>
             </div>
             <div class="project-grid">
               <div class="project-image">
-                <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+                <v-img class="my-pic" src='@/assets/service.png'></v-img>
               </div>
               <div class="project-des">
                 어떤 프로젝트인지 기획에 대해서 설명
@@ -478,11 +489,11 @@
          @mouseenter="activatePort"
          @mouseleave="deactivatePort"
          @click="openModal">
-            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <v-img class="my-pic" src='@/assets/access.png' width="100%" height="300px"></v-img>
             <div class="port-text">
-              <h3>출입 시스템</h3>
+              <h3>자동 출입 시스템</h3>
               <p>2022-04~2022-06</p>
-              <p class="cate">웹 사이트</p>
+              <p class="cate">H/W</p>
             </div>
 
           </div>
@@ -494,7 +505,7 @@
          @mouseenter="activatePort"
          @mouseleave="deactivatePort"
          @click="openModal2">
-            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <v-img class="my-pic" src='@/assets/4this.png' height="300px"></v-img>
             <div class="port-text">
               <h3>동아리 홍보 페이지</h3>
               <p>2022-08~2022-09</p>
@@ -510,7 +521,7 @@
          @mouseenter="activatePort"
          @mouseleave="deactivatePort"
          @click="openModal3">
-            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <v-img class="my-pic" src='@/assets/node.png' height="300px"></v-img>
             <div class="port-text">
               <h3>스마트팜</h3>
               <p>2022-09~2022-12</p>
@@ -527,7 +538,7 @@
          @mouseenter="activatePort"
          @mouseleave="deactivatePort"
          @click="openModal4">
-            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <v-img class="my-pic" src='@/assets/node.png' height="300px"></v-img>
             <div class="port-text">
               <h3>학원관리 시스템</h3>
               <p>2023-08~2023-11</p>
@@ -544,7 +555,7 @@
          @mouseenter="activatePort"
          @mouseleave="deactivatePort"
          @click="openModal5">
-            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <v-img class="my-pic" src='@/assets/service.png' height="300px"></v-img>
             <div class="port-text">
               <h3>DevForDev</h3>
               <p>2023-03~07</p>
@@ -889,15 +900,17 @@ img:hover {
 
 .port {
   box-shadow: 5px 5px 5px 5px rgb(235, 235, 235);
+  padding: 20px;
+  width: 100%;
 }
 
 
 .port-text {
-  padding: 10px;
+  margin-top: 10px;
   font-weight: 400;
 }
 .port-text h3 {
-  font-size: 30px;
+  font-size: 20px;
 }
 .port .cate {
   background-color: rgb(244, 216, 159);
@@ -936,7 +949,7 @@ footer {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000; /* 뒷 배경보다 위에 표시 */
   width: 700px;
-  height: 700px;
+  height: 750px;
 }
 
 .modal .cate {
@@ -958,13 +971,18 @@ footer {
 .modal h3 {
   margin: 10px 0;
 }
+
+.modal button {
+  float: right;
+  
+}
 .modal-content {
   /* 모달 내용 스타일 설정 */
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   gap: 20px;
 }
 
