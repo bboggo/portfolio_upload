@@ -83,7 +83,7 @@
 
       <div class="text">
         <p>⭐ 백엔드 개발자가 되고 싶은 김민지입니다. ⭐</p>
-        <p>2022년부터 백엔드 개발자를 희망하고 준비하고 있습니다. 원하는 서비스를 상상하는 것 뿐만 아니라 실제로 만들어 낼 수 있다는 점에서 프로그래밍에 매력을 느끼고 되었습니다.</p>
+        <p>2022년부터 백엔드 개발자를 희망하고 준비하고 있습니다. 원하는 서비스를 상상하는 것 뿐만 아니라 실제로 만들어 낼 수 있다는 점에서 프로그래밍에 매력을 느끼게 되었습니다.</p>
         <p>프로젝트와 이론에 대한 공부를 함께하며 노력해 나아가고 있습니다:) </p> 
       </div>
 
@@ -116,7 +116,7 @@
           </div>
           <div class="environ">
             <div class="name">
-              <h1>개발 환경 및 생산성</h1>
+              <h1>개발 환경</h1>
             </div>
             <div class="skill-list">
               <ul>
@@ -184,80 +184,82 @@
           <h1>Experience</h1>
         </div>
         <div class="ex-text">
-          수상 및 자격증, 프로젝트 제외 활동 내역입니다. 아르바이트, 교육 등 다양한 경험을 해보았습니다.
+          수상 및 자격증, 프로젝트 제외 활동 내역입니다. 아르바이트, 교육 등 다양한 경험을 하기 위해 노력하고 있습니다.
         </div>
         <div class="ex-list-grid">
           <div class="ex-list">
             <h2>코드잇 강의 수강</h2>
-            <p>2023-10-21~</p>
+            <p>2021-06~2021-09</p>
           </div>
           <div class="ex-list">
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다. 이것이 얼마나 소중한 기회였는지 저는</li>
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>프로그래밍에 대한 지식이 많이 부족했던 저학년 때 기본 지식을 배우고자 신청하고  수료하였습니다.</li>
+            <li>프로그램잉에 대한 기본 이해, 프로그래밍 언어 학습 등을 할 수 있었습니다.</li>
           </div>
         </div>
         <hr>
         <div class="ex-list-grid">
           <div class="ex-list">
-            <h2>4차 산업 연구회 동아리</h2>
-            <p>2023-10-21~</p>
+            <h2>4차 산업 연구회</h2>
+            <p>2021-10~2022-12</p>
           </div>
           <div class="ex-list">
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>명지전문대학 정보통신공학과 학과 동아리에 들어가 대외활동, 공모전, 프로젝트 등 다양한 활동을 해보았습니다.</li>
+            <li>동아리 내에서 서류 및 백엔드 개발을 담당하였고, 어떻게 해야 효율적인 팀 활동을 할 수 있는지에 대해 배울 수 있었습니다.</li>
           </div>
         </div>
         <hr>
         <div class="ex-list-grid">
           <div class="ex-list">
             <h2>한이음 ICT 멘토링</h2>
-            <p>2023-10-21~</p>
+            <p>2022-03~2022-09</p>
           </div>
           <div class="ex-list">
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>'안전한 근로 환경을 보장하는 스마트 안전모'라는 주제로 ICT 멘토링에 참여하였습니다.</li>
+            <li>하드웨어 제어 및 Express릃 활용한 백엔드 개발을 경험해 볼 수 있었습니다.</li>
           </div>
         </div>
         <hr>
         <div class="ex-list-grid">
           <div class="ex-list">
             <h2>전공 튜터링</h2>
-            <p>2023-10-21~</p>
+            <p>2022-03~2023-06, 2023-03~2023-06</p>
           </div>
           <div class="ex-list">
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
-          </div>
-        </div>
-        <hr>
-        <div class="ex-list-grid">
-          <div class="ex-list">
-            <h2>학습법 특강</h2>
-            <p>2023-10-21~</p>
-          </div>
-          <div class="ex-list">
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>객체지향언어실습, 자료구조 과목에 대한 튜터로 전공 튜터링을 진행했습니다.</li>
+            <li>객체지향에 대한 학습 및 JAVA 언어에 대한 이해도 향상에 많은 도움이 되었습니다.</li>
           </div>
         </div>
         <hr>
         <div class="ex-list-grid">
           <div class="ex-list">
             <h2>Alpha mini 교재 번역 아르바이트</h2>
-            <p>2023-10-21~</p>
+            <p>2022-09</p>
           </div>
           <div class="ex-list">
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
-            <li>아르바이트, 교육 등 다양한 경험을 해보았습니다. 이 과정에서 많은 것을 배울 수 있었고 많은 성장을 할 수 있었습니다.</li>
+            <li>인공지능 교육자료 알파미니 로봇의 강의 학습 교재 번역 아르바이트를 했습니다.</li>
+            <li>새로운 분야에 대한 학습을 해볼 수 있는 기회였습니다.</li>
           </div>
         </div>
+        <hr>
+        <div class="ex-list-grid">
+          <div class="ex-list">
+            <h2>학습법 특강</h2>
+            <p>2022-12</p>
+          </div>
+          <div class="ex-list">
+            <li>'JAVA 언어에 대한 기본 이해'라는 주제로 학과 학습법 특강을 진행했습니다.</li>
+            <li>약 1시간 정도의 강의 준비였지만, 해당 과젱어서 Java 언어에 대한 이해도를 높일 수 있었습니다.</li>
+          </div>
+        </div>
+        <hr>
+
       </div>
 
       
 
       <div class="modal-background" v-if="showModal" @click="closeModal"></div>
       <div>
-        <!-- 모달 창 -->
+
         <div class="modal" v-if="showModal">
           <!-- 모달 내용 -->
           <div class="modal-content">
@@ -296,7 +298,173 @@
             <button @click="closeModal">닫기</button>
           </div>
         </div>
+
+        <div class="modal-background" v-if="showModal2" @click="closeModal2"></div>
+
+        <div class="modal" v-if="showModal2">
+          <!-- 모달 내용 -->
+          <div class="modal-content">
+            <div class="project-infor">
+              <h2>동아리 홍보 페이지</h2>
+              <p>진행 기간 : 2023-10~2023-1012</p>
+              <p class="cate">웹 사이트</p>
+              <a href="">github</a>
+            </div>
+            <div class="project-grid">
+              <div class="project-image">
+                <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+              </div>
+              <div class="project-des">
+                어떤 프로젝트인지 기획에 대해서 설명
+              </div>
+            </div>
+            <div class="project-my">
+              <h3>내가 담당한 부분 : 백엔드</h3>
+              
+            </div>
+            <div class="project-skill">
+              <h3>기술 스택</h3>
+              <li>Spring Boot</li>
+              <li>Spring Boot</li>
+              <li>Spring Boot</li>
+            </div>
+
+            <div class="project-feel">
+              <h3>느낀점</h3>
+              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+            </div>
+
+            <!-- 모달 내용 추가 -->
+
+            <button @click="closeModal2">닫기</button>
+          </div>
+        </div>
+
+        <div class="modal-background" v-if="showModal3" @click="closeModal3"></div>
+
+        <div class="modal" v-if="showModal3">
+          <!-- 모달 내용 -->
+          <div class="modal-content">
+            <div class="project-infor">
+              <h2>스마트팜</h2>
+              <p>진행 기간 : 2023-10~2023-1012</p>
+              <p class="cate">웹 사이트</p>
+              <a href="">github</a>
+            </div>
+            <div class="project-grid">
+              <div class="project-image">
+                <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+              </div>
+              <div class="project-des">
+                어떤 프로젝트인지 기획에 대해서 설명
+              </div>
+            </div>
+            <div class="project-my">
+              <h3>내가 담당한 부분 : 백엔드</h3>
+              
+            </div>
+            <div class="project-skill">
+              <h3>기술 스택</h3>
+              <li>Spring Boot</li>
+              <li>Spring Boot</li>
+              <li>Spring Boot</li>
+            </div>
+
+            <div class="project-feel">
+              <h3>느낀점</h3>
+              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+            </div>
+
+            <!-- 모달 내용 추가 -->
+
+            <button @click="closeModal3">닫기</button>
+          </div>
+        </div>
+
+        <div class="modal-background" v-if="showModal4" @click="closeModal4"></div>
+
+        <div class="modal" v-if="showModal4">
+          <!-- 모달 내용 -->
+          <div class="modal-content">
+            <div class="project-infor">
+              <h2>학원관리시스템</h2>
+              <p>진행 기간 : 2023-10~2023-1012</p>
+              <p class="cate">웹 사이트</p>
+              <a href="">github</a>
+            </div>
+            <div class="project-grid">
+              <div class="project-image">
+                <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+              </div>
+              <div class="project-des">
+                어떤 프로젝트인지 기획에 대해서 설명
+              </div>
+            </div>
+            <div class="project-my">
+              <h3>내가 담당한 부분 : 백엔드</h3>
+              
+            </div>
+            <div class="project-skill">
+              <h3>기술 스택</h3>
+              <li>Spring Boot</li>
+              <li>Spring Boot</li>
+              <li>Spring Boot</li>
+            </div>
+
+            <div class="project-feel">
+              <h3>느낀점</h3>
+              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+            </div>
+
+            <!-- 모달 내용 추가 -->
+
+            <button @click="closeModal4">닫기</button>
+          </div>
+        </div>
+
+
+        <div class="modal-background" v-if="showModal5" @click="closeModal5"></div>
+
+        <div class="modal" v-if="showModal5">
+          <!-- 모달 내용 -->
+          <div class="modal-content">
+            <div class="project-infor">
+              <h2>DevForDev</h2>
+              <p>진행 기간 : 2023-10~2023-1012</p>
+              <p class="cate">웹 사이트</p>
+              <a href="">github</a>
+            </div>
+            <div class="project-grid">
+              <div class="project-image">
+                <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+              </div>
+              <div class="project-des">
+                어떤 프로젝트인지 기획에 대해서 설명
+              </div>
+            </div>
+            <div class="project-my">
+              <h3>내가 담당한 부분 : 백엔드</h3>
+              
+            </div>
+            <div class="project-skill">
+              <h3>기술 스택</h3>
+              <li>Spring Boot</li>
+              <li>Spring Boot</li>
+              <li>Spring Boot</li>
+            </div>
+
+            <div class="project-feel">
+              <h3>느낀점</h3>
+              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+            </div>
+
+            <!-- 모달 내용 추가 -->
+
+            <button @click="closeModal5">닫기</button>
+          </div>
+        </div>
       </div>
+
 
       <div class="portfolio">
         <div class="title">
@@ -312,38 +480,74 @@
          @click="openModal">
             <v-img class="my-pic" src='@/assets/node.png'></v-img>
             <div class="port-text">
-              <h3>학원관리 시스템</h3>
-              <p>2023-10-21~</p>
+              <h3>출입 시스템</h3>
+              <p>2022-04~2022-06</p>
               <p class="cate">웹 사이트</p>
             </div>
 
           </div>
 
-          <div class="port" ddata-aos="fade-up" data-aos-duration="4000">
-            <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
+
+          <div class="port"
+         data-aos="fade-up"
+         data-aos-duration="4000"
+         @mouseenter="activatePort"
+         @mouseleave="deactivatePort"
+         @click="openModal2">
+            <v-img class="my-pic" src='@/assets/node.png'></v-img>
             <div class="port-text">
-              <h3>학원관리 시스템</h3>
-              <p>2023-10-21~</p>
+              <h3>동아리 홍보 페이지</h3>
+              <p>2022-08~2022-09</p>
               <p class="cate">웹 사이트</p>
             </div>
 
           </div>
 
-          <div class="port" data-aos="fade-up" data-duration="2000">
-            <v-img class="port-img" src='@/assets/node.png'></v-img>
+
+          <div class="port"
+         data-aos="fade-up"
+         data-aos-duration="4000"
+         @mouseenter="activatePort"
+         @mouseleave="deactivatePort"
+         @click="openModal3">
+            <v-img class="my-pic" src='@/assets/node.png'></v-img>
             <div class="port-text">
-              <h3>학원관리 시스템</h3>
-              <p>2023-10-21~</p>
+              <h3>스마트팜</h3>
+              <p>2022-09~2022-12</p>
               <p class="cate">웹 사이트</p>
             </div>
 
           </div>
 
-          <div class="port" data-aos="fade-up" data-duration="2000">
+
+
+          <div class="port"
+         data-aos="fade-up"
+         data-aos-duration="4000"
+         @mouseenter="activatePort"
+         @mouseleave="deactivatePort"
+         @click="openModal4">
             <v-img class="my-pic" src='@/assets/node.png'></v-img>
             <div class="port-text">
               <h3>학원관리 시스템</h3>
-              <p>2023-10-21~</p>
+              <p>2023-08~2023-11</p>
+              <p class="cate">웹 사이트</p>
+            </div>
+
+          </div>
+
+
+
+          <div class="port"
+         data-aos="fade-up"
+         data-aos-duration="4000"
+         @mouseenter="activatePort"
+         @mouseleave="deactivatePort"
+         @click="openModal5">
+            <v-img class="my-pic" src='@/assets/node.png'></v-img>
+            <div class="port-text">
+              <h3>DevForDev</h3>
+              <p>2023-03~07</p>
               <p class="cate">웹 사이트</p>
             </div>
 
@@ -368,7 +572,12 @@ export default {
     subtitle: '',
     name: '',
     showModal: false,
-    isActivated: false
+    showModal2: false,
+    showModal3: false,
+    showModal4: false,
+    showModal5: false,
+    isActivated: false,
+    isFlipped: false, 
   }),
 
   mounted() {
@@ -416,11 +625,46 @@ export default {
     closeModal() {
       this.showModal = false; // 모달 창 닫기
     },
+
+    openModal2() {
+      this.showModal2 = true; // 모달 창 열기
+    },
+    closeModal2() {
+      this.showModal2 = false; // 모달 창 닫기
+    },
+
+    openModal3() {
+      this.showModal3 = true; // 모달 창 열기
+    },
+    closeModal3() {
+      this.showModal3 = false; // 모달 창 닫기
+    },
+
+    openModal4() {
+      this.showModal4 = true; // 모달 창 열기
+    },
+    closeModal4() {
+      this.showModal4 = false; // 모달 창 닫기
+    },
+
+    openModal5() {
+      this.showModal5 = true; // 모달 창 열기
+    },
+    closeModal5() {
+      this.showModal5 = false; // 모달 창 닫기
+    },
+
     activatePort() {
       this.isActivated = true;
     },
     deactivatePort() {
       this.isActivated = false;
+    },
+    flipCard() {
+      this.isFlipped = true;
+    },
+    unflipCard() {
+      this.isFlipped = false;
     },
   }
 };
@@ -567,7 +811,6 @@ export default {
 }
 
 
-
 .frontend, .database, .cloud {
   background-color: #F5F5F5;
   padding: 30px 50px;
@@ -588,10 +831,10 @@ ul {
   text-align: center;
 }
 ul li {
-  width: 100px;
+  width: 150px;
    margin-left: auto;
    margin-right: auto;
-
+  font-size: 20px;
 }
 .Experience {
   margin: 0 200px;
@@ -724,5 +967,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
+
 
 </style>
