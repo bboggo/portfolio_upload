@@ -92,81 +92,142 @@
           <h1>Skills</h1>
         </div>
         <div class="skill-grid">
-          <div class="backend">
-            <div class="name">
-              <h1>백엔드 프레임워크</h1>
-            </div>
-            <div class="skill-list">
-              <ul>
-                <li>Spring Boot</li>
-                <li>Express</li>
-              </ul>
-            </div>
-          </div>
-          <div class="database">
-            <div class="name">
-              <h1>데이터베이스</h1>
-            </div>
-            <div class="skill-list">
-              <ul>
-                <li>MySQL</li>
-                <li>Oracle</li>
-              </ul>
-            </div>
-          </div>
-          <div class="environ">
-            <div class="name">
-              <h1>개발 환경</h1>
-            </div>
-            <div class="skill-list">
-              <ul>
-                <li>Gradle</li>
-                <li>Lombok</li>
-                <li>Tomcat</li>
-              </ul>
+          
+        <div class="flip">  
+          <div class="card">
+            
+            <div class="front">
+
+                <div class="name">
+                  <h1>백엔드 프레임워크</h1>
+                </div>
+                <div class="skill-list">
+                  <ul>
+                    <li>Spring Boot</li>
+                    <li>Express</li>
+                  </ul>
+                </div>
 
             </div>
-          </div>
-
-          <div class="cloud">
-            <div class="name">
-              <h1>클라우드 및 통신</h1>
-            </div>
-            <div class="skill-list">
-              <ul>
-                <li>AWS RDS</li>
-                <li>AWS EC2</li>
-                <li>AWS S3</li> 
-              </ul>
+            
+            <div class="back">
+              Spring Boot를 메인 프레임워크로 공부하고 있으며, 프로젝트와 이론 공부를 함께 하고 있습니다.
             </div>
           </div>
+        </div>
 
-          <div class="git">
-            <div class="name">
-              <h1>배포 및 형상 관리</h1>
+        <div class="flip">  
+          <div class="card">
+            <div class="front1">
+                <div class="name">
+                  <h1>데이터베이스</h1>
+                </div>
+                <div class="skill-list">
+                  <ul>
+                    <li>MySQL</li>
+                    <li>Oracle</li>
+                  </ul>
+
+              </div>
+
             </div>
-            <div class="skill-list">
-              <ul>
-                <li>Git</li>
-                <li>GitHub</li>
-              </ul>
+            <div class="back">
+              MySQL과 Oracle 모두 활용하여 프로젝트를 진행한 경험이 있습니다.
             </div>
           </div>
+        </div>
 
-          <div class="frontend">
-            <div class="name">
-              <h1>프론트엔드</h1>
+
+        <div class="flip">  
+          <div class="card">
+            
+            <div class="front">
+
+                <div class="name">
+                  <h1>개발 환경</h1>
+                </div>
+                <div class="skill-list">
+                  <ul>
+                    <li>Gradle</li>
+                    <li>Lombok</li>
+                    <li>Tomcat</li>
+                  </ul>
+                </div>
             </div>
-            <div class="skill-list">
-              <ul>
-                <li>Vus.js</li>
-                <li>Html5</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-              </ul>
-
+            <div class="back">
+              Spring Boot의 Gradle, Lombok을 사용하여 개발을 하고 있습니다.
             </div>
           </div>
+        </div>
+
+
+        <div class="flip">  
+          <div class="card">
+            
+            <div class="front1">
+              <div class="name">
+                <h1>클라우드 및 통신</h1>
+              </div>
+              <div class="skill-list">
+                <ul>
+                  <li>AWS RDS</li>
+                  <li>AWS EC2</li>
+                  <li>AWS S3</li> 
+                </ul>
+              </div>
+            </div>
+            <div class="back">
+              AWS를 활용한 서버 구축 및 모니터링 경험이 있습니다.
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flip">  
+          <div class="card">
+            
+            <div class="front">
+
+              <div class="name">
+                <h1>배포 및 형상 관리</h1>
+              </div>
+              <div class="skill-list">
+                <ul>
+                  <li>Git</li>
+                  <li>GitHub</li>
+                </ul>
+              </div>
+            </div>
+            <div class="back">
+              git을 사용해 협업하고 프로젝트를 진행할 수 있습니다.
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flip">  
+          <div class="card">
+            <div class="front1">
+
+              <div class="name">
+                  <h1>프론트엔드</h1>
+                </div>
+                <div class="skill-list">
+                  <ul>
+                    <li>Vus.js</li>
+                    <li>Html5, JavaScript, CSS</li>
+
+                  </ul>
+
+                </div>
+            </div>
+            
+            <div class="back">
+              기본적인 프론트엔드 지식 및 Vue.js 프레임워크를 사용한 웹 사이트 개발을 할 수 있습니다.
+            </div>
+          </div>
+        </div>
+
         </div>
         <!-- <div class="skill-image">
           <v-img class="my-pic" src='@/assets/node.png' width="100px"></v-img>
@@ -277,8 +338,7 @@
                 <p>[딥러닝을 활용한 자동 출입 시스템 제작]</p>
                 <li>Open CV를 이용한 딥러닝 모델 개발을 활용해 관리자 접근 허용</li>
                 <li>아두이노 우노와 라즈베리 파이 간의 시리얼 통신</li>
-                <li>아두이노 우노와 연결된 지문인식센서를 통해 관리자 접근 허용</li>
-                <li>아두이노 우노와 연결된 RFID 센서를 통해 관리자를 제외한 일반 사용자의 접근 허용</li>
+                <li>아두이노 우노와 연결된 지문인식센서를 통한 관리자 접근, RFID 센서를 통한 사용자 접근 허용</li>
 
                 <li>접근이 허용될 경우 LED 점등 및 LCD 문구 출력, 서보모터를 통해 출입문 열림</li>
             <li>관리자와 일반 사용자의 접근 경로를 달리해 보안 강화</li>
@@ -577,6 +637,7 @@
         </div>
       </div>
     </div>
+
 
     <footer>
       <p>김민지 - 졸업 프로젝트 중간고사 포트폴리오</p>
@@ -985,7 +1046,7 @@ footer {
 }
 
 .modal h3 {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .modal button {
@@ -1006,5 +1067,51 @@ footer {
 }
 
 
+.flip { 
+  height: 250px;
+  perspective: 1100px;
+}
+
+.card {
+  width: 100%; 
+  height: 100%; 
+  position: relative;
+  transition: .4s;
+  transform-style: preserve-3d;
+}	
+
+.front, .back, .front1 {
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  background: rgb(244, 216, 159);
+  padding: 50px;
+}
+
+.front1 {
+  background: rgb(248, 248, 248);
+  padding: 50px;
+}
+
+
+
+.back { 
+  background: rgb(0, 0, 0); 
+  opacity:0.8;
+  transform: rotateY(180deg);
+  color: white;
+  padding: 80px 50px;
+  font-size: 20px;
+}
+
+
+
+.flip:hover .card {
+  transform: rotateY(180deg);
+}
 
 </style>
