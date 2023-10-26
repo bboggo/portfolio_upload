@@ -358,32 +358,37 @@
           <div class="modal-content">
             <div class="project-infor">
               <h2>스마트팜</h2>
-              <p>진행 기간 : 2023-10~2023-1012</p>
-              <p class="cate">웹 사이트</p>
-              <a href="">github</a>
+              <p>진행 기간 : 2022-09~2022-12</p>
+              <p class="cate">H/W & 웹 사이트</p>
+              <a href="https://github.com/ordem-yoo/junior-2-capstone-design">github</a>
             </div>
             <div class="project-grid">
               <div class="project-image">
                 <v-img class="my-pic" src='@/assets/smartfarm.png'></v-img>
               </div>
               <div class="project-des">
-                어떤 프로젝트인지 기획에 대해서 설명
+                <p>[라즈베리 파이 및 웹, 애플리케이션을 활용해 가정에서 스마트 농업을 가능하게 하는 시스템]</p>
+                <p>모듈을 통한 스마트팜 내부 환경 자동 조절</p>
+                <p>시리얼 및 서버 통신을 통해 웹 페이지에서 스마트팜 모니터링 및 수동 모듈 제어 가능</p>
               </div>
             </div>
             <div class="project-my">
-              <h3>내가 담당한 부분 : 백엔드</h3>
+              <h3>담당한 부분 : 기획 및 웹 백엔드, 데이터베이스, 웹 프론트엔드, 라즈베리파이 모듈 제어</h3>
+              <p>기획 과정 전체 참여, Django를 활용한 백엔드 구현, jQuery를 활용한 api 요청 및 데이터 모니터링, 라즈베리파이 모듈 제어 담당</p>
               
             </div>
             <div class="project-skill">
               <h3>기술 스택</h3>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
+              <li>백엔드 : Django, MySQL, AWS EC2, AWS RDS</li>
+              <li>프론트엔드 : jQuery, Html5, CSS, JavaScript</li>
+              <li>하드웨어 : 라즈베리파이(python)</li>
             </div>
 
             <div class="project-feel">
-              <h3>느낀점</h3>
-              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+              <h3>배운점</h3>
+              <p>Django를 이용해 데이터를 처리하고 백엔드 프로그래밍을 하는 과정에서 백엔드에 대한 개념을 익힐 수 있었음. 이외에도 하드웨어와 프론트를 직접 제어하여 다양한 분야에 대한 학습을
+                할 수 있었으며, 해당 프로젝트를 통해 교내 대회에서 수상할 수 있었음
+              </p>
             </div>
 
             <!-- 모달 내용 추가 -->
@@ -399,32 +404,36 @@
           <div class="modal-content">
             <div class="project-infor">
               <h2>학원관리시스템</h2>
-              <p>진행 기간 : 2023-10~2023-1012</p>
+              <p>진행 기간 : 2023-07~2023-10</p>
               <p class="cate">웹 사이트</p>
-              <a href="">github</a>
+              <a href="https://github.com/AcaTechProject/AcaTech">github</a>
             </div>
             <div class="project-grid">
               <div class="project-image">
-                <v-img class="my-pic" src='@/assets/service.png'></v-img>
+                <v-img class="my-pic" src='@/assets/aca.png'></v-img>
               </div>
               <div class="project-des">
-                어떤 프로젝트인지 기획에 대해서 설명
+                <p>기존 학원 시스템에서 매월 스케줄(상담 내역 및 통신문)을 화이트보드에 수기로 작성. 신규 학생인 경우에도 일정을 수기로 작성함에 있어서 일정변화/인원 변화가 생기면 혼동을 느낌 → 비효율적인 방식</p>
+                <p>이에 선생님들끼리도 종이로 기록해 공유하는 과정에서 놓치는 부분이 있을 것이라고 문제점 도출. </p>
+                <p>해당 문제점 해결을 위해 원생 출석 및 출결 관리, 상담 관리 등의 기능을 제공하는 서비스 제작하고자 함</p>
               </div>
             </div>
             <div class="project-my">
-              <h3>내가 담당한 부분 : 백엔드</h3>
+              <h3>담당한 부분 : 백엔드 프로그래밍, DB 및 서버</h3>
               
             </div>
             <div class="project-skill">
               <h3>기술 스택</h3>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
+              <li>Spring Boot, Gradle, JPA</li>
+              <li>MySQL</li>
+              <li>AWS S3, AWS RDS</li>
             </div>
 
             <div class="project-feel">
               <h3>느낀점</h3>
-              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+              <p>처음으로 Spring Boot를 사용해 체계적인 프로젝트를 진행해봄. 백엔드 개발자들과 어떻게 소통해야하는지, 프론트 개발자들과는 어떻게 소통해야하는지에
+                대해 고민해 볼 수 있는 기회가 됨. 또한, Spring Boot 프레임워크에 대해 깊이있는 공부를 할 수 있었음
+              </p>
             </div>
 
             <!-- 모달 내용 추가 -->
@@ -441,7 +450,7 @@
           <div class="modal-content">
             <div class="project-infor">
               <h2>DevForDev</h2>
-              <p>진행 기간 : 2023-10~2023-1012</p>
+              <p>진행 기간 : 2023-03~2023-06</p>
               <p class="cate">웹 사이트</p>
               <a href="https://github.com/bboggo/devfordev">github</a>
             </div>
@@ -450,23 +459,25 @@
                 <v-img class="my-pic" src='@/assets/service.png'></v-img>
               </div>
               <div class="project-des">
-                어떤 프로젝트인지 기획에 대해서 설명
+                <p>[개발 공부를 하는 예비 개발자들을 위한 자료 공유 & 커뮤니티 사이트]</p>
+                <p>개발 분야로 취업 준비 / 공부를 하던 중 겪었던 어려운 점들 분석 및 해결하고자 함</p>
+                <p>포트폴리오 공유, 프로젝트 공유, 서비스 업로드, 팀원 찾기 및 커뮤니티 기능을 제공</p>
               </div>
             </div>
             <div class="project-my">
-              <h3>내가 담당한 부분 : 백엔드</h3>
+              <h3>담당한 부분 : 기획, 디자인, 백엔드, 프론트(개인 프로젝트)</h3>
               
             </div>
             <div class="project-skill">
               <h3>기술 스택</h3>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
-              <li>Spring Boot</li>
+              <li>Node.js Express</li>
+              <li>MySQL</li>
+              <li>Vue.js</li>
             </div>
 
             <div class="project-feel">
-              <h3>느낀점</h3>
-              <p>어떤 점을 느꼈는지 아주 자세하게 쓰려고함ㅁ. 진짜 자세하게 학원관리 시스템을 만들면서 무슨 감정을 느꼈고 그래봤자 안좋은 감정이지 뭐</p>
+              <h3>배운점</h3>
+              <p>프로젝트의 처음부터 끝까지 직접 진행하며 프로젝트의 전반적인 흐름에 대해서 알 수 있었음. 특히 백엔드 api를 과정하는 과정에서 많은 점을 배움</p>
             </div>
 
             <!-- 모달 내용 추가 -->
@@ -489,7 +500,7 @@
          @mouseenter="activatePort"
          @mouseleave="deactivatePort"
          @click="openModal">
-            <v-img class="my-pic" src='@/assets/access.png' width="100%" height="300px"></v-img>
+            <v-img class="my-pic" src='@/assets/access.png' height="300px"></v-img>
             <div class="port-text">
               <h3>자동 출입 시스템</h3>
               <p>2022-04~2022-06</p>
@@ -521,11 +532,11 @@
          @mouseenter="activatePort"
          @mouseleave="deactivatePort"
          @click="openModal3">
-            <v-img class="my-pic" src='@/assets/node.png' height="300px"></v-img>
+            <v-img class="my-pic" src='@/assets/smartfarm.png' height="300px"></v-img>
             <div class="port-text">
               <h3>스마트팜</h3>
               <p>2022-09~2022-12</p>
-              <p class="cate">웹 사이트</p>
+              <p class="cate">H/W & 웹 사이트</p>
             </div>
 
           </div>
@@ -538,10 +549,10 @@
          @mouseenter="activatePort"
          @mouseleave="deactivatePort"
          @click="openModal4">
-            <v-img class="my-pic" src='@/assets/node.png' height="300px"></v-img>
+            <v-img class="my-pic" src='@/assets/aca.png' height="300px"></v-img>
             <div class="port-text">
               <h3>학원관리 시스템</h3>
-              <p>2023-08~2023-11</p>
+              <p>22023-07~2023-10</p>
               <p class="cate">웹 사이트</p>
             </div>
 
@@ -558,7 +569,7 @@
             <v-img class="my-pic" src='@/assets/service.png' height="300px"></v-img>
             <div class="port-text">
               <h3>DevForDev</h3>
-              <p>2023-03~07</p>
+              <p>2023-03~2023-06</p>
               <p class="cate">웹 사이트</p>
             </div>
 
@@ -883,7 +894,7 @@ ul li {
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 100px;
+  gap: 50px;
 }
 
 .portfolio-grid .port {
@@ -904,7 +915,12 @@ img:hover {
   width: 100%;
 }
 
+.port img {
+  height: 300px;
 
+  object-fit: cover;
+
+}
 .port-text {
   margin-top: 10px;
   font-weight: 400;
@@ -974,7 +990,10 @@ footer {
 
 .modal button {
   float: right;
-  
+  position: absolute;
+ bottom: 0;
+ right: 0;
+ margin: 20px;
 }
 .modal-content {
   /* 모달 내용 스타일 설정 */
